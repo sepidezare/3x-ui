@@ -78,7 +78,7 @@ config_after_install() {
         echo -e "${yellow}Your username will be:${config_account}${plain}"
         read -p "Please set up your password:" config_password
         echo -e "${yellow}Your password will
-install_x-ui() {
+{
 systemctl stop x-ui
 cd /usr/local/
 if [ $# == 0 ]; then
